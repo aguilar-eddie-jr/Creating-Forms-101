@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creating a simple Form">
+    <title>Creating Forms 101</title>
+</head>
+<body>
+  <table cellspacing="10" cellpadding="20"  width="700px" >
+     <tr>
+        <td>
+           <img src="/image23/sheykey.jpg">
+        </td>
+        <td>
+         <p align="left">Lorem ipsum dolor sit amet, consectetur adipisicing <br>
+            elit. Nihil ducimus soluta rerum delectus, quod<br>
+            quibusdam aut laudantium cum sed fuga consequatur ratione <br>
+            impedit illum. Nostrum possimus modi officiis Vivamus.</p>
+       </td>
+     </tr>
+  </table>
+
+  <table cellspacing="10" width="700px">
+  <tr>
+    <td>
+      <form>
+        <table cellspacing="20">
+            
+           <tr>
+             <div>
+                <td><label for="Name">Name:</label></td>
+                <td><input type="text" id="Name" placeholder="Enter your name" required style="border: 2px solid #000000; width: 300px; height: 25px;"></td>
+             </div>
+            </tr>
+
+           <tr>
+             <div><td><label for="Address">Address:</label></td>
+                <td><input type="text" id="Address" placeholder="Enter your address" required style="border: 2px solid #000000; width: 300px; height: 25px;"></td>
+             </div>
+            </tr>
+
+           <tr>
+             <div>
+                <td><label for="Email-Ad">Email-Ad:</label></td>
+                <td><input type="email" id="Email-Ad" placeholder="aguilareddie2323@gmail.com" required style="border: 2px solid #000000; width: 300px; height: 25px;"></td>
+             </div>
+            </tr>
+
+           <tr>
+             <div>
+                <td><label for="ContactNumber">Contact Number:</label></td>
+                <td><input type="tel" id="ContactNumber" placeholder="0-994-742-0066" required style="border: 2px solid #000000; width: 300px; height: 25px;"></td>
+             </div>
+            </tr>
+    
+        </table>
+      
+    </td>
+       <td>
+        <br>
+           <label for="Gender">Gender:</label><br>
+              
+                <input type="radio" id="Male" name="Gender" value="Male">
+              <label for="Male">Male</label>
+              <br>
+                <input type="radio" id="Female" name="Gender" value="Female">
+              <label for="Female">Female</label>
+              <br>
+              <br>
+           <label for="Hobbies">Hobbies:</label><br>
+                <input type="checkbox" id="Swimming" name="Hobbies">
+              <label for="Swimming">Swimming</label>
+              <br>
+                <input type="checkbox" id="Biking" name="Hobbies">
+              <label for="Biking">Biking</label>
+              <br>
+                <input type="checkbox" id="Reading" name="Hobbies">
+              <label for="Reading">Reading</label>
+              <br>
+              <input type="checkbox" id="WatchingTV" name="Hobbies">
+              <label for="WatchingTV">Watching TV</label>
+              <br>
+              <input type="checkbox" id="Playing" name="Hobbies">
+              <label for="Playing">Playing</label>
+       </td>
+      </form>
+     </tr>
+   </table>
+</body>
+</html>
